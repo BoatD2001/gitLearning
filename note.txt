@@ -1,0 +1,20 @@
+git config --global user.name "xxx"
+git config --global user.email "xxx"
+(上述两条不加后面的内容，则是查看)
+
+git status		//查看修改的状态
+
+git add <filename>		//将指定文件从工作区（未跟踪、未暂存）放入暂存区
+git add .	//一般不会用上述方式，太麻烦了，而是直接用通配符操作目录下的所有文件
+
+git commit -m "xxx"		//将暂存区的文件提交至仓库，xxx为注释
+
+git log [option]	//查看提交日志
+option：
+--all 显示所有分支
+--pretty=oneline 将提交信息显示为一行
+--abbrev-commit 使得输出的commit id更加简短
+--graph 以图的形式显示
+
+
+
