@@ -1,2 +1,2 @@
 this is a file which records the version number
-ver = 1
+ver = 2
