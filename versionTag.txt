@@ -1,2 +1,6 @@
 this is a file which records the version number
+<<<<<<< HEAD
 ver = 3
+=======
+ver = 2
+>>>>>>> dev
